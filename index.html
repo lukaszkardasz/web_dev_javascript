@@ -1,32 +1,85 @@
 <!DOCTYPE html>
 <html lang="pl">
-    <head>
-        <title>My first website</title>
-        <meta charset="UTF-8">
-        <meta name="description" content="My first website, this description should be short, because google will use it.">
-        <noscript>
-            JavaScript is not avilable.
-        </noscript>
 
-    </head>
+<head>
+    <title>My first website</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="My first website, this description should be short, because google will use it.">
+    <noscript>
+        JavaScript is not avilable.
+    </noscript>
 
-    <body>
-        <h1>Elementy HTML mogą wpływać na wygląd treści</h1>
-        <p>Magazyn <i>The Rolling Stones</i> jest jednym z najpopularniejszych czasopism muzycznych.</p>
-        <p><strong>Uwaga!</strong> promocja trwa tylko do jutra. 
-            Później <strong><em>nie będzie możliwości zakupu.</em></strong></p>
-        <p>Popularnym błędem językowym jest zapisywanie <u>challange</u> zamiast poprawnego challenge.</p>
-        <p>Polska zajmuje <s>piąte miejsce</s> w rankingu FIFA</p>
-        <p>Skończyłem dziś Twój projekt. <b>Jutro</b> podeślę wszystko na maila.</p>
+</head>
 
-        <h2>Znacznik p</h2>
-        <p>
-            String text = "Hello World";
-            System.out.println(text);
-        </p>
+<body>
+    <!-- Navigation -->
+    <nav>
+        Zupy:
+        <li>pomidorowa</li>
+        <li>szczawiowa</li>
+    </nav>
+    <!--Main section -->
+    <main>
+        <header>
+            <h1>Przepis na zupę pomidorową</h1>
+        </header>
+        <article>
+            <div style="display: flex">
+                <div style="flex: 60%;">
+                    <h2>Pyszna zupa</h2>
+                    <p>Zupa pomidorowa to jedna z najpopularniejszych, klasycznych zup, które goszczą na polskich
+                        stołach.
+                    </p>
+                    <p>Niektórzy przygotowują ją na świeżych pomidorach, inni dodają koncentratu, aby zaoszczędzić czas.
+                    </p>
+                    <h2>Przepis</h2>
+                    <p>1. Ugotuj dzień wcześniej rosół. Może być drobiowy, albo drobiowo wołowy w zależności od
+                        preferencji.
+                    </p>
+                    <p>2. Następnego dnia przygotuj pomidory. Należy je sparzyć i obrać ze skórki.</p>
+                    <p>3. Zblenduj pomidory razem z rosołem, dopraw do smaku.</p>
+                    <p>Szybki przepis na rosół: kilogram skrzydełek, 4 marchewki, korzeń pietruszki,
+                        selera i opaloną na gazie cebulę gotuj przez co najmniej 4 godziny. W ostatniej godzinie dodaj
+                        liść laurowy i ziele angielskie.</p>
+                </div>
+                <div style="flex:40%; background-color: lightgrey;">
+                    <h2>Składniki</h2>
+                    <p>Pomidory świeże lub z puszki</p>
+                    <p>Rosół</p>
+                    <p>Makaron</p>
+                </div>
+            </div>
+        </article>
+    </main>
 
-        <h2>Znacznik pre</h2>
-        <pre>
+    <!-- footer -->
+    <footer>
+        <h3>Przepisy kulinarne dla programistów</h3>
+        <p>Na naszej stronie znajdziesz najlepsze przepisy kulinarne dla zapracowanych programistów</p>
+        <p>&copy; KulinarnyProgramista.pl</p>
+    </footer>
+
+
+
+
+
+
+    <h1>Elementy HTML mogą wpływać na wygląd treści</h1>
+    <p>Magazyn <i>The Rolling Stones</i> jest jednym z najpopularniejszych czasopism muzycznych.</p>
+    <p><strong>Uwaga!</strong> promocja trwa tylko do jutra.
+        Później <strong><em>nie będzie możliwości zakupu.</em></strong></p>
+    <p>Popularnym błędem językowym jest zapisywanie <u>challange</u> zamiast poprawnego challenge.</p>
+    <p>Polska zajmuje <s>piąte miejsce</s> w rankingu FIFA</p>
+    <p>Skończyłem dziś Twój projekt. <b>Jutro</b> podeślę wszystko na maila.</p>
+
+    <h2>Znacznik p</h2>
+    <p>
+        String text = "Hello World";
+        System.out.println(text);
+    </p>
+
+    <h2>Znacznik pre</h2>
+    <pre>
             String text = "Hello World";
             System.out.println(text);
             +----------------+
@@ -36,20 +89,25 @@
             |                |
             +----------------+
         </pre>
-        <h2>To samo w znaczniku p</h2>
-        <p>
-            String text = "Hello World";
-            System.out.println(text);
-            +----------------+
-            |    Class       |
-            |  name: String  |
-            |  age: int      |
-            |                |
-            +----------------+
-        </p>
+    <h2>To samo w znaczniku p</h2>
+    <p>
+        String text = "Hello World";
+        System.out.println(text);
+        +----------------+
+        | Class |
+        | name: String |
+        | age: int |
+        | |
+        +----------------+
+    </p>
 
-        <h1>Używanie encji w HTML</h1>
-        <p>Ten tekst jest rozdzielony &nbsp;&nbsp;&nbsp;&nbsp; kilkoma spacjami</p>
-        <p>Element &lt;p&gt; oznacza paragraf tekstu.</p>
-    </body>
+    <h1>Używanie encji w HTML</h1>
+    <p>Ten tekst jest rozdzielony &nbsp;&nbsp;&nbsp;&nbsp; kilkoma spacjami</p>
+    <p>Element &lt;p&gt; oznacza paragraf tekstu.</p>
+
+
+
+
+</body>
+
 </html>
