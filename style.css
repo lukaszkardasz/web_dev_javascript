@@ -1,0 +1,32 @@
+h4 {
+    color: orange;
+    font-size: 32px;
+}
+h1 {
+    background-color: black;
+    color: white;
+}
+h2 {
+    color: blue;
+}
+#first_paragraph {
+    color: orangered;
+}
+.sample_class {
+    color: pink;
+}
+[draggable]{
+    color: green;
+}
+[for="male"]{
+    color: red;
+}
+a {
+    color: orange;
+}
+[href] {
+    color: orange;
+}
+[target="_blank"] {
+    color: red;
+}
