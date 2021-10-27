@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <title>Formularz rejestracji</title>
+    <meta charset="UTF-8">
+    <meta name="descroption" content="Przykładowy formularz rejestracji">
+</head>
+
+<body>
+    <h3>Książka kucharska</h3>
+    <h3>Dodaj nowy przepis</h3>
+    <form>
+        <div>
+            <label for="recipeName">Nazwa przepisu</label>
+            <input type="text" name="" id="recipeName" placeholder="np. Pierogi">
+        </div>
+        <div>
+            <label for="category">Kategoria</label>
+            <select type="category" id="category">
+                <option>śniadania</option>
+                <option>obiady</option>
+                <option>kolacje</option>
+            </select>
+        </div>
+        <div>
+            <label for="tag">Tag</label>
+            <input list="tags" id="tag">
+            <dataList id="tags">
+                <option value="kurczak">
+                <option value="vege">
+                <option value="deser">
+            </dataList>
+        </div>
+        <div>
+            <label for="rate">Ocena</label>
+            <input type="number" min="1" max= "10" step= "1" id="rate">
+        </div>
+        <div>
+            <p><label for="preparation">Sposób przygotowania</label></p>
+            <textarea id="preparation" cols="40" rows="20"></textarea>
+        </div> 
+        <button>
+            Dodaj przepis
+        </button>
+    </form>
+</body>
+
+</html>

@@ -154,7 +154,59 @@
 		</tfoot>
 	</table>
 
+	<body>
+		<h3>Zarejestruj się!</h3>
+		<form>
+			<fieldset>
+				<legend>Dane konta</legend>
+				<div>
+					<label for="username">Nazwa użytkownika</label>
+					<input type="text" id="username">
+				</div>
+				<div>
+					<label for="email">e-mail</label>
+					<input type="email" id="email" placeholder="jan.kowalski@onet.pl">
+				</div>
+				<div>
+					<label for="pass">hasło</label>
+					<input type="password" id="pass">
+				</div>
+			</fieldset>
+			<fieldset>
+				<legend>Dane personalne</legend>
+				<div>
+					<label for="name">Imię</label>
+					<input type="text" id="name">
+				</div>
+				<div>
+					<label for="surName">Nazwisko</label>
+					<input type="text" id="surName">
+				</div>
+				<div>
+					<label for="birthDate">data urodzenia</label>
+					<input type="date" id="birthDate">
+				</div>
+				<div>
+					<label for="age">wiek</label>
+					<input type="number" id="age">
+				</div>
+				<div>
+					<label for="url">Link do zdjęcia</label>
+					<input type="url" id="url">
+				</div>
+				<div>
+					<p>płeć</p>
+					<input type="radio" name="gender" id="male">
+					<label for="male">Mężczyzna</label>
 
-</body>
+					<input type="radio" name="gender" id="male" checked>
+					<label for="male">Kobieta</label>
+				</div>
+			</fieldset>
+
+
+			<button>Zarejestruj się</button>
+		</form>
+	</body>
 
 </html>
